@@ -18,7 +18,7 @@ Il comando per eseguire la scansione è: `sudo netdiscover`
 
 ![Kioptrix4](https://user-images.githubusercontent.com/104534892/236891485-df50e551-af9d-4d3c-bfaf-a2cf2bea4115.png)
 
-Netdiscover ci restituisce il nome dell'host vittima "PCS Sysemtechnik" , il suo indirizzo IP (in questo caso 10.0.2.4) e l'indirizzo MAC.
+Netdiscover ci restituisce il nome dell'host vittima "PCS Sysemtechnik", il suo indirizzo IP (in questo caso 10.0.2.4) e l'indirizzo MAC.
 
 # 2. Enumerazione
 
@@ -83,8 +83,8 @@ Prima di cercare la flag diamo un'occhiata all'history dei comandi utilizzati ne
 
 ![Kioptrix14](https://user-images.githubusercontent.com/104534892/236891812-5a528c9b-87df-452c-83a2-5cf906aff2d9.png)
 
-notiamo che è stato utilizzato il comando mail, quindi accediamo alla directory come utente root per leggerle le mail salvate:
+notiamo che è stato utilizzato il comando mail, quindi accediamo alla directory come utente root per leggere le mail salvate:
 
 ![Kioptrix15](https://user-images.githubusercontent.com/104534892/236891829-19387e6f-80b0-4ac9-9a32-8854a67c53c0.png)
 
-VM completata, abbiamo ottenuto la flag!
+ctf completata, abbiamo ottenuto la flag.
