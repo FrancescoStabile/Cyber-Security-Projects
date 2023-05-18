@@ -14,7 +14,7 @@ print('''
 
 # Defining a target
 if len(sys.argv) == 2:  # If user input is 2 it assumes the argument as IP/Hostname
-    # translate hostname to IPv4
+    # Translate hostname to IPv4
     target = socket.gethostbyname(sys.argv[1])
 else:
     print("Invalid argument")
@@ -26,7 +26,7 @@ print("Scanning started at:" + str(datetime.now()))
 print("-" * 100)
   
 try:
-    # Scan ports between 1 to 65,535 and create a new socket for each port
+    # Scan ports between 1 and 65,535, and create a new socket for each port
     for port in range(1,65535):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)     
